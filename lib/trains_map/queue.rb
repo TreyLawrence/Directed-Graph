@@ -22,4 +22,8 @@ class Queue
   def size
     @queue.length
   end
+  
+  def view
+    @queue
+  end
 end
